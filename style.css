@@ -1,0 +1,94 @@
+/* desktop version */
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.leftContainer{
+    width: 50%;
+}
+
+.leftHeading{
+    padding: 40px 0 0 77px;
+    text-transform: uppercase;
+    font-family:'Inconsolata';
+}
+
+.errorImage{
+    width:450px;
+    padding: 70px 0 0 75px;
+    
+    }
+
+
+.rightContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rightHeading{
+    font-size: 64px;
+    font-family: monospace;
+}
+
+.rightSubHeading{
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.returnHomeButton{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding:24px 43px;
+    text-transform: uppercase;
+    font-size: 14px;
+   
+}
+
+/* mobile responsive version for iphone 12 pro*/
+@media only screen and (max-width: 390px){
+
+    .mainContainer{
+        flex-direction: column;
+    }
+
+    .leftContainer{
+        width: 100%;
+    }
+
+    .leftHeading{
+        padding: 20px 24px;
+    }
+
+    .errorImage{
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+        padding: 30px 0 0 0;
+    }
+
+    .rightContainer{
+        width: auto;
+        margin: 20px 24px;
+    }
+
+    .rightHeading{
+        font-size: 48px;
+        
+    }
+
+    .rightSubHeading{
+        font-size: 18px;
+        
+        
+    }
+        
+    }
