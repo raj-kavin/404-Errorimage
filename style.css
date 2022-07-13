@@ -40,14 +40,14 @@
     font-family: monospace;
 }
 
-.returnHomeButton {
+ .returnHomeButton {
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 24px 43px;
     text-transform: uppercase;
     font-size: 14px;
-}
+} 
 
 /* mobile responsive version for iphone 12 pro*/
 @media only screen and (max-width: 390px) {
