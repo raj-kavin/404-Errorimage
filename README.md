@@ -1,6 +1,7 @@
 # 404-Errorimage
-Checkout the live website "https://404errorpage-kavin.netlify.app/"
 
-This page tells a web user that a requested page is not available.
+(1) Checkout the live website "https://404errorpage-kavin.netlify.app/"
 
-![Capture](https://user-images.githubusercontent.com/108740656/181284714-9e7a765f-9fa6-4a82-952f-182df431114d.PNG)
+(2) This page tells a web user that a requested page is not available.
+
+![404- Error Page](https://user-images.githubusercontent.com/108740656/181486366-59b2c860-bf60-4d77-8c34-3fc4b3e49189.PNG)
